@@ -1,7 +1,11 @@
 {
   "particles":{
     "number":{
-      "value":100
+      "value":400,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
     },
     "color":{
       "value":"#fff"
@@ -13,11 +17,13 @@
         "color":"#ccc"
       },
       "image":{
-        "src":"http://lh3.googleusercontent.com/vbh3ID2N46D1ElfTe1WFtFMbJFSUioWeTlbnztWgFeS7QTq5VztNwKd2RlcHsFfDN3wy=w300"
+        "src":"http://lh3.googleusercontent.com/vbh3ID2N46D1ElfTe1WFtFMbJFSUioWeTlbnztWgFeS7QTq5VztNwKd2RlcHsFfDN3wy=w300",
+        "width":100,
+        "height":100
       }
     },
     "opacity":{
-      "value":0.5,
+      "value":1,
       "random":true,
       "anim":{
         "enable":false,
@@ -25,8 +31,8 @@
       }
     },
     "size":{
-      "value":5,
-      "random":false,
+      "value":10,
+      "random":true,
       "anim":{
         "enable":false,
         "speed":30
@@ -40,7 +46,7 @@
     },
     "move":{
       "enable":true,
-      "speed":4,
+      "speed":10,
       "direction":"none",
       "straight":false
     }
